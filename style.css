@@ -1,0 +1,69 @@
+* {
+  border: 1px solid red;
+}
+
+p {
+  color: green;
+  font-size: 20px;
+}
+
+h1{
+  color: maroon;
+}
+
+.title{
+  color: teal;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+#article-title{
+  font-family: cursive;
+}
+
+a[href*='BwE'] {
+  color: lightgreen;
+}
+
+a:hover{
+  color: darkorange;
+  }
+
+.heading-background{
+    background-color: aqua;
+  }
+
+#publish-time
+{
+  color: gray;
+}
+
+h5 {
+  color: yellow;
+}
+
+.author-class {
+  color: pink;
+}
+
+#author-id {
+  color: cornflowerblue;
+}
+
+h4.headline{
+  font-family: Tahoma;
+}
+
+.description h5{
+  color: blueviolet;
+}
+
+li h4{
+  color: gold;
+}
+
+h4, li{
+  font-family: monospace;
+}
