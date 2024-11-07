@@ -4,11 +4,15 @@
 
 p {
   color: green;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 h1{
-  color: maroon;
+  color: maroon !important;
+  font-family: Georgia;
+  text-align: center;
 }
 
 .title{
@@ -41,7 +45,7 @@ a:hover{
 }
 
 h5 {
-  color: yellow;
+  color: yellow ;
 }
 
 .author-class {
@@ -57,7 +61,7 @@ h4.headline{
 }
 
 .description h5{
-  color: blueviolet;
+  color: blueviolet ;
 }
 
 li h4{
@@ -66,4 +70,27 @@ li h4{
 
 h4, li{
   font-family: monospace;
+}
+
+.image {
+  background-image: url("https://i.pinimg.com/736x/a3/4a/3a/a34a3a1ff5f03e76a3e83503e627e3ae.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white;
+  color:black;
+  opacity:0.75;
 }
