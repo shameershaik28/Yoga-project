@@ -2,6 +2,8 @@
 
 Welcome to my **Yoga Website**, a platform dedicated to promoting wellness, mindfulness, and physical well-being through the ancient practice of yoga. This website provides information, tips, and resources to help both beginners and experienced practitioners on their yoga journey.
 
+🔗 [Visit the Yoga Website](https://shameershaik28.github.io/Yoga-project/)
+
 ---
 
 ## 🌟 Features of the Yoga Website:
