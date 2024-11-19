@@ -10,7 +10,7 @@ p {
 }
 
 h1{
-  color: maroon !important;
+
   font-family: Georgia;
   text-align: center;
 }
@@ -95,3 +95,36 @@ h4, li{
   opacity:0.75;
 }
 
+.header 
+{
+  background-color: cornflowerblue;
+  text-align: center;
+}
+.header-Image
+{
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.about-me
+{
+  color: black;
+  font-size: 20px;
+  opacity: 50%;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.my-title{
+  color: azure !important;
+}
+
+body
+{
+ font-family: Georgia;
+ background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png'
+);
+}
