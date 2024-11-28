@@ -1,18 +1,37 @@
 * {
-  border: 1px solid red;
+  margin: 0;
+  padding: 0;
 }
 
+.logo
+{
+  visibility: hidden;
+}
 p {
   color: green;
   font-size: 18px;
   font-family: Helvetica;
   font-weight: bold;
+  margin-top: 60px;
+  min-width: 200px;
+  max-width: 800px;
+  min-height: 200px;
+  max-height: 300px;
+}
+
+#main {
+  padding: 40px;
+  height:1000px;
+  overflow: scroll;
 }
 
 h1{
 
   font-family: Georgia;
   text-align: center;
+  border : 1px dotted red;
+  margin: 30px 20px;
+  
 }
 
 .title{
@@ -76,7 +95,7 @@ h4, li{
   background-image: url("https://i.pinimg.com/736x/a3/4a/3a/a34a3a1ff5f03e76a3e83503e627e3ae.jpg");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 700px;
 }
 
 .caption {
@@ -127,4 +146,33 @@ body
  font-family: Georgia;
  background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png'
 );
+}
+
+.pull-quote{
+  width: 350px;
+  margin:0 auto;
+}
+
+.caption 
+{
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+ padding: 20px 30px;
+ margin:10px;
+
 }
